@@ -13,7 +13,7 @@ plugins{
 ...
 
 dependencies {
-    implementation 'com.google.dagger:dagger-android-android:버전'
+    implementation 'com.google.dagger:dagger-android:버전'
     implementation 'com.google.dagger:dagger-android-support:버전'
     kapt 'com.google.dagger:dagger-android-processor:버전'
     kapt 'com.google.dagger:dagger-compiler:버전'
@@ -23,7 +23,7 @@ dependencies {
 //빌드 오류시 오류 라인 500으로 설정
 
 android{
-    gradle.projectEvaluated{
+    gradle.projectsEvaluated{
         tasks.withType(JavaCompile){
             options.compilerArgs << "-Xmaxerrs" << "500"
         }
