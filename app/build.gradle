@@ -52,4 +52,8 @@ dependencies {
     implementation 'com.google.dagger:dagger-android-support:2.40'
     kapt 'com.google.dagger:dagger-android-processor:2.40'
     kapt 'com.google.dagger:dagger-compiler:2.40'
+    testImplementation 'com.google.dagger:dagger-android:2.40'
+    testImplementation 'com.google.dagger:dagger-android-support:2.40'
+    kaptTest 'com.google.dagger:dagger-android-processor:2.40'
+    kaptTest 'com.google.dagger:dagger-compiler:2.40'
 }

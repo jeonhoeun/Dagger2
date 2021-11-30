@@ -17,6 +17,13 @@ dependencies {
     implementation 'com.google.dagger:dagger-android-support:버전'
     kapt 'com.google.dagger:dagger-android-processor:버전'
     kapt 'com.google.dagger:dagger-compiler:버전'
+    
+    //아래는 test코드에서도 사용하는경우  
+    testImplementation 'com.google.dagger:dagger-android:버전'
+    testImplementation 'com.google.dagger:dagger-android-support:버전'
+    kaptTest 'com.google.dagger:dagger-android-processor:버전'
+    kaptTest 'com.google.dagger:dagger-compiler:버전'
+    
 }
 
 
